@@ -1,0 +1,40 @@
+.userCard__item {
+    cursor: pointer;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 24px 0 0 24px;
+    gap: 26px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.userCard__title {
+    margin: 0;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.userCard__info {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    gap: 12px 14px;
+    align-items: center;
+}
+
+.userCard__icon {
+    display: block;
+    object-fit: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.userCard__subtitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8189A3;
+}

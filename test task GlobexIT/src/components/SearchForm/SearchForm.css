@@ -1,0 +1,36 @@
+.search {
+    display: flex;
+    align-items: center;
+    margin: 65px 80px 32px;
+}
+
+.search__form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search__input {
+    max-width: 1120px;
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 1px solid #D4DEFE;
+    padding: 12px 24px;
+}
+
+.search__submit {
+    cursor: pointer;
+    position: absolute;
+    background-image: url("../../image/findButton.svg");
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    top: 12px;
+    right: 24px;
+}

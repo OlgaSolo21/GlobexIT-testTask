@@ -1,0 +1,11 @@
+.root {
+    background-color: #fff;
+    color: #262C40;
+    max-width: 1280px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: 'Proxima Nova', 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}

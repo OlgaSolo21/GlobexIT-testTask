@@ -1,0 +1,11 @@
+.userCard {
+    margin: 0 80px;
+}
+
+.userCard__list {
+    display: grid;
+    grid-template-columns: repeat(3, 357px);
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
